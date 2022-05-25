@@ -46,6 +46,15 @@ aboutMe ='''
     '''
 print(aboutMe)
 
+#Formating String 
+fName = 'Rejaul'
+lName = 'Islam'
+fullName = fName + ' [' + lName + '] is a programmer' 
+print (fullName)
+
+#Formating String 
+fullName  = f'{fName} [{lName}] is  a Programmer'
+print (fullName)
 
 
 
