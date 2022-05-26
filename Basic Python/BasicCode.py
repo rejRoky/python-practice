@@ -1,4 +1,5 @@
 # Hello Python
+from ast import While
 import math
 print("Hello, Python")
 print('o----')
@@ -82,14 +83,34 @@ else:
     print("Roky")
 
 # Logical Oparetor (and/or)
-if ((fName == 'Rejaul') and (lName =='Islam')):
+if ((fName == 'Rejaul') and (lName == 'Islam')):
     print("Rejaul Islam")
 else:
     print("Roky")
- 
+
 # Comparsion Oparetor (>,<,==, !=)
 
-if (2<3):
+if (2 < 3):
     print('2<3')
 
+
+# Loops
+
+# While
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+print("Loop done")
+
+# For
+for x in 'roky':
+    print(x)
+print('\n')
+
+# Nested Loops
+for x in range(4):
+    for y in range(3):
+        print(f'{x}, {y}')
+    print('\n')
 
