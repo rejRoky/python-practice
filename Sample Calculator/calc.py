@@ -14,8 +14,8 @@ k = int(input("Enter option 1 to 4 , What you want: "))
 print("-----------------------")
 
 print("Enter Two Number one bye one : ")
-a = input("1st Number: ")
-b = input("2nd Number: ")
+a = int(input("1st Number: "))
+b = int(input("2nd Number: "))
 print("-----------------------")
 
 def add ():
