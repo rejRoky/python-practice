@@ -10,7 +10,7 @@ print("3. Multiplication")
 print("4. Division")
 print("-----------------------")
 
-k = input("Enter option 1 to 4 , What you want: ")
+k = int(input("Enter option 1 to 4 , What you want: "))
 print("-----------------------")
 
 print("Enter Two Number one bye one : ")
@@ -32,3 +32,12 @@ def div ():
 
 if (k == 1):
     add()
+
+elif (k == 2):
+    sub()
+
+elif (k == 3):
+    mul()
+
+elif (k == 4):
+    div()
