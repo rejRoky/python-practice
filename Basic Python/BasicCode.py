@@ -115,20 +115,50 @@ for x in range(4):
     print('\n')
 
 
-#function
-def fName (x):
-    print ("Value is :", int(x))
+# function
+def fName(x):
+    print("Value is :", int(x))
+
 
 fName(40)
 
 
-#Lambda function (small anonymous function)
-x = lambda a : a + 10
+# Lambda function (small anonymous function)
+def x(a): return a + 10
+
+
 print(x(29))
 
-fulName = lambda  fName , lName : fName + lName 
-print(fulName('Rejaul', 'Islam'))
+
+def fulName(fName, lName): return fName + lName
 
 
+print(fulName('Rejaul', ' Islam'))
 
 
+# Arrary
+cars = ["Ford", "Volvo", "BMW"]
+print(cars)
+print(cars[2])
+
+
+# Class
+class Car:
+    brand = 'volvo'
+    price = 1000
+
+
+oc = Car
+print(oc.brand)
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = int(age)
+
+
+p1 = Person('roky', 26)
+
+print(p1.name)
+print(p1.age)
