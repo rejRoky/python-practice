@@ -115,6 +115,20 @@ for x in range(4):
     print('\n')
 
 
+#function
+def fName (x):
+    print ("Value is :", int(x))
+
+fName(40)
+
+
+#Lambda function (small anonymous function)
+x = lambda a : a + 10
+print(x(29))
+
+fulName = lambda  fName , lName : fName + lName 
+print(fulName('Rejaul', 'Islam'))
+
 
 
 
